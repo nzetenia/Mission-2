@@ -1,0 +1,230 @@
+#header-row {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid rgb(0, 255, 106); */
+    background-image: url(/Pictures/uva.jpg);
+    background-size: cover;
+}
+
+#image {
+    width: 15%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 400%;
+    /* border: 1px solid red; */
+    text-shadow: 3px 3px #180101;
+    padding: 5px;
+    /* why so much bottom pading? */
+}
+
+h1 {
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+
+    /* changing this old for new one */
+    /* from {left:40px;}
+    to {right: 40px;} */
+    0% {
+        left: 40px;
+        color: white;
+    }
+
+    50% {
+        right: 40px;
+        left: auto;
+        color: rgb(59, 4, 13);
+    }
+
+    100% {
+        left: auto;
+        right: 40px;
+        color: white;
+    }
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* border: 1px solid rgb(0, 200, 255); */
+    padding: 8px 15px;
+    gap: 1em;
+}
+
+.nav-link {
+    border: 1px solid blue;
+    padding: 8px 15px;
+    background-color: aliceblue;
+}
+
+.btn:hover {
+    background-color: #396ee1;
+    color: white
+}
+form {
+    border: 4px solid gray;
+    border-radius: 10px;
+    background-color: #b7b7b7;
+    padding: 5px;
+    width: 80%;
+}
+form input{
+    width: 14%;
+}
+form p {
+    margin: 0px 0px 5px;
+}
+
+form h4 {
+    /* background-color: white; */
+    color: rgb(90, 7, 70);
+    font-size: 30px;
+    margin: 0px;
+}
+
+/* main {
+    display: block;
+    border: 1px solid red;
+    padding: 20px 1px;
+} */
+#wine-categories {
+    display: block;
+    /* flex-direction: column;
+    border: 1px solid red; */
+}
+
+.wine-category {
+    display: flex;
+
+    text-align: center;
+    border: 2px solid gray;
+}
+
+/* how to remove the margein on the picture */
+.wine-category-title1 {
+    background-image: url('/Pictures/bordalezaGrande.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    width: 55%;
+    margin: 1px
+}
+
+.wine-category-title2 {
+    background-image: url('/Pictures/LosAndes.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    width: 55%;
+    margin: 1px
+}
+
+.div img {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    /* border: 1px solid red; */
+    text-align: center;
+    color: rgb(17, 151, 64);
+    size: 10px;
+
+}
+
+.followus>i {
+    display: flex;
+    /* flex-direction: row */
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 119, 255);
+}
+
+.wine-product {
+    width: 350px;
+    height: 300px;
+    padding: 10px 10px 50px;
+    margin: 1%;
+    border: 1px solid gray;
+    transition: all .3s;
+
+}
+
+.wine-product:hover {
+    box-shadow: 12px 12px 8px 0px #b7b7b7;
+    cursor: pointer;
+    margin: 1% 0% 0%;
+}
+
+.wine-product img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Footer */
+.sponsors {
+    background-color: rgb(25, 24, 24);
+
+}
+
+.sponsors>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    /* border: 1px solid red; */
+    list-style: none;
+}
+
+.logo-name li {
+    display: grid;
+    text-align: center;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.logo-name li img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.subscribe form {
+    margin-top: 10px;
+}
+
+.subscribe input[type="email"] {
+    padding: 5px;
+    width: 100%;
+}
+
+.subscribe button {
+    padding: 5px 20px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* a:active{
+    color:red;
+    font-size: 50px; 
+}   */
+
+
+
+
+/* footer {
+    background-color: #e9e2e2;
+    color: #1ebd7a;
+    padding: 20px 0;
+    text-align: center;
+} */

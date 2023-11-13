@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Winery</title>
+    <link rel="stylesheet" href="winery.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+</head>
+
+<body>
+    <header>
+        <!-- <div id="test">terst</div> -->
+        <div id="header-row">
+            <img id="image" src="/Pictures/logoVenterra.jpg" alt="logoVenterra">
+            <h1>Venterra</h1>
+            <nav>
+                <ul>
+                    <li class="btn nav-link"><a href="mailto:ClaudioC@missionreadyhq.com
+                        ">Email us</a></li>
+                    <li class="btn nav-link">Home</li>
+                    <li class="btn nav-link">About us</li>
+                    <!-- <li class="btn nav-link">Cart</li> -->
+                </ul>
+                <form>
+                    <label for="wines">Choose a Wine:</label>
+                    <select name="wines" id="wines">
+                        <option value="Norton White">Norton White</option>
+                        <option value="Cabrini Red">Cabrini Red</option>
+                        <option value="Malvec de Lujan">Malvec de Lujan</option>
+                        <option value="Manos Negras">Manos Negras</option>
+                        <option value="Pala Corazon">Pala Corazon</option>
+                        <option value="El Loco">El Loco</option>
+                    </select>
+                    <input type="number" id="quantity"> 
+                    <button onclick= "addItem(event)">Add to List</button>  
+                    <h4>Cart👇</h4>
+                    <p id="shopping-list-display"></p>
+                </form>
+                <!-- <div>
+                    <p>Total=</p>
+                </div> -->
+            </nav>
+            
+                        
+        </div>
+    </header>
+    <!-- main body -->
+    <main>
+        <div id="wine-categories">
+            <section class="wine-category">
+                <h2 class="wine-category-title1">Top Rated Products</h2>
+                <button class="wine-product">
+                    <img src="/Pictures/Norton White.jpg" alt="Norton White">
+                    <h3>Norton White </h3>
+                    <!-- <a href="#"><i class="fas fa-shopping-cart"></i></a> -->
+                </button>
+                <button class="wine-product">
+                    <img src="/Pictures/Cabrini Red.jpg" alt="Cabrini Red">
+                    <h3>Cabrini Red</h3>
+                </button>
+                <button class="wine-product">
+                    <img src="/Pictures/Malvec Lujan.jpg" alt="Lujan White">
+                    <h3>Malvec de Lujan</h3>
+                </button>
+            </Section>
+
+
+            <section class="wine-category">
+                <button class="wine-product">
+                    <img src="/Pictures/manos negras.jpg" alt="ManosNegras">
+                    <h3>Manos Negras</h3>
+                </button>
+                <button class="wine-product">
+                    <img src="/Pictures/pala Corazon.jpg" alt="PalaCorazon">
+                    <h3>Pala Corazon</h3>
+                </button>
+                <button class="wine-product">
+                    <img src="/Pictures/loco.jpeg" alt="El Loco">
+                    <h3>El Loco</h3>
+                </button>
+                <h2 class="wine-category-title2">New Products</h2>
+            </section>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="sponsors">
+            <hr color="pink" , 5px>
+            <h3>Our Sponsors</h3>
+            <ul class="logo-name">
+                <li><img src="/Pictures/andes logo.jfif">Andes</li>
+                <li><img src="/Pictures/quilmes logo.jfif">Quilmes</li>
+                <li><img src="/Pictures/fernet logo.jfif">Fernet</li>
+            </ul>
+        </div>
+        <div class="followus">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-beat fa-2xl"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+
+
+
+        </div>
+        <div class="subscribe">
+            <form action="form.html">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p>Subscribe to our newsletter.</p>
+        </div>
+    </footer>
+
+    <script src="Winery.js"></script>
+</body>
+
+</html>

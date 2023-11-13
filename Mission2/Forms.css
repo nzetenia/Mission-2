@@ -1,0 +1,30 @@
+input {
+    width: 13%;
+}
+div input {
+    width: 5%;
+}
+
+label {
+    font-family: "Tahoma", "sans-serif";
+
+}
+
+
+textarea {
+    border: 2px solid purple;
+}
+
+input[type="submit"] {
+    background: purple;
+    color: white;
+    width: 30%;
+}
+
+input[type="radio"] + label {
+    color: purple;
+}
+
+
+
+
